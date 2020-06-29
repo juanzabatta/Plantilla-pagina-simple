@@ -1,0 +1,67 @@
+/* Cabecera */
+header{
+    position: fixed;
+    z-index: 6;
+    padding-top: 0.5rem;
+    width: 100%;
+    margin-top: -30px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 500ms;
+}
+
+
+#header{
+    height: 5rem;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 42% 58%;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 0px;
+}
+
+/* Logo */
+#logo{
+    height: 3rem;
+    width: calc(3rem * 3.2);
+    text-align: center;
+}
+
+/* Menu */
+#menu{
+    display: flex;
+    width: 100%;
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#menu ul li .button{
+    font-size: 1rem;
+    min-width: 7.5rem;
+    border: none;
+    text-decoration: none;
+    color: #555555;
+    text-align: center;
+    font-family: Kaushan;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    font-style: normal;
+    background-color: white;
+}
+#menu ul li .button:hover{
+    color: #999999;
+    text-decoration: none;
+    cursor: pointer;
+}
+#menu ul li .button:focus{
+    text-decoration: none;
+    outline-style: none;
+}

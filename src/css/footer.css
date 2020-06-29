@@ -1,0 +1,16 @@
+/* Pie de página */
+#footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+#footer p{
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin: 0px;
+    padding: 20px;
+}
+#footer p a{
+    font-size: 0.8rem;
+}

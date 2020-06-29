@@ -1,0 +1,23 @@
+/* historia / history */
+#history{
+    height: 800px;
+    min-height: 100vh;
+    grid-template-columns: 42% 58%;
+}
+
+
+#history-text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#history-text div{
+    margin: auto;
+}
+
+
+#history-figure{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
