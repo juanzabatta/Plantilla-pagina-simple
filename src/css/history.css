@@ -1,6 +1,6 @@
 /* historia / history */
 #history{
-    height: 800px;
+    /* height: 800px; */
     min-height: 100vh;
     grid-template-columns: 42% 58%;
 }

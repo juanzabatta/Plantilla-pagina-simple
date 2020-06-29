@@ -36,8 +36,6 @@
     #header{
         width: 100%;
         grid-template-columns: auto;
-        height: auto;
-
     }
 
     #content{
@@ -45,7 +43,7 @@
     }
     #content .contents{
         width: 100%;
-        height: 550px;
+        height: auto;
     }
     #service-animation{
         display: none;
@@ -89,7 +87,4 @@
     iframe{
         height: 200px;
     }
- }/*
-@media (max-width: 600px){
-
-} */
+ }

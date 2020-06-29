@@ -86,4 +86,5 @@ figure img{
     display: grid;
     width: 80%;
     margin: auto;
+    height: auto;
 }

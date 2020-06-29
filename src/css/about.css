@@ -1,6 +1,6 @@
 /* Nosotros / About */
 #about{
-    height: 800px;
+    /* height: 800px; */
     min-height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;

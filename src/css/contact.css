@@ -1,6 +1,6 @@
 /* Contacto / Contact */
 #contact{
-    height: 700px;
+    /* height: 700px; */
     min-height: 100vh;
     grid-template-columns: 42% 58%;
     grid-template-rows: auto auto;
