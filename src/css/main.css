@@ -1,90 +1,118 @@
-@font-face{
-    font-family: "Kaushan";
-    src: url("../fonts/KaushanScript-Regular.ttf") format("truetype");
-    font-style: normal;
+@font-face {
+  font-family: "Kaushan";
+  src: url("../fonts/KaushanScript-Regular.ttf") format("truetype");
+  font-style: normal;
 }
-@font-face{
-    font-family: "Lato";
-    src: url("../fonts/Lato-Regular.ttf") format("truetype");
-    font-style: normal;
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "WebSymbolsRegular";
+  src: url("../fonts/websymbols-regular-webfont.eot");
+  src: url("../fonts/websymbols-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/websymbols-regular-webfont.woff") format("woff"),
+    url("../fonts/websymbols-regular-webfont.ttf") format("truetype"),
+    url("../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Estilos generales */
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Lato;
-    color: #555555;
-    box-sizing: border-box;
-    font-size: 20px;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Lato;
+  color: #555555;
+  box-sizing: border-box;
+  font-size: 20px;
 }
-#app{
-    background-color: white;
+#app {
+  background-color: white;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-a{
-    text-decoration: none;
-    color: #555555;
-    background-color: white;
+a {
+  text-decoration: none;
+  color: #555555;
+  background-color: white;
 }
-a:hover{
-    color: #999999;
-    text-decoration: underline;
-    cursor: pointer;
+a:hover {
+  color: #999999;
+  text-decoration: underline;
+  cursor: pointer;
 }
-h2, h4, #fisrt-letter{
-    font-family: Kaushan;
-    text-transform: uppercase;
-    letter-spacing: 0.05rem;
+h2,
+h4,
+#fisrt-letter {
+  font-family: Kaushan;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
 }
-h2{
-    font-weight: 900;
-    font-size: 1.5rem;
-    line-height: 2.25rem;
-    text-align: center;
+h2 {
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  text-align: center;
 }
-h4{
-    font-weight: 900;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    text-align: center;
+h4 {
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
 }
-#fisrt-letter{
-    font-size: 1.25rem;
-    letter-spacing: 0.25rem;
+#fisrt-letter {
+  font-size: 1.25rem;
+  letter-spacing: 0.25rem;
 }
-p{
-    font-size: 1rem;
-    line-height: 1.35rem;
-    text-align: justify;
-    margin: 0.75rem 1.5rem 0.75rem 1.5rem;
+p {
+  font-size: 1rem;
+  line-height: 1.35rem;
+  text-align: justify;
+  margin: 0.75rem 1.5rem 0.75rem 1.5rem;
 }
-figure{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+figure {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
-figure img{
-    display: block;
-    height: auto;
-    width: 95%;
-    margin: auto;
+figure img {
+  display: block;
+  height: auto;
+  width: 95%;
+  margin: auto;
 }
-
+button {
+  background-color: white;
+  border: none;
+  text-decoration: none;
+  color: #555555;
+}
+button:hover {
+  color: #999999;
+  text-decoration: none;
+  cursor: pointer;
+}
+button:focus {
+  text-decoration: none;
+  outline-style: none;
+}
 
 /* Contenido */
-#content{
-    display: grid;
-    grid-template-rows: repeat(4, auto);
-    width: 100%;
-    margin: auto;
-    margin-top: 30px;
+#content {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
 }
-#content .contents{
-    display: grid;
-    width: 80%;
-    margin: auto;
-    height: auto;
+#content .contents {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  height: auto;
 }

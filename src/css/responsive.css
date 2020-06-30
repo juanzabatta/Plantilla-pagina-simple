@@ -1,90 +1,99 @@
 /* televisores */
-@media(min-width:2260px){
-    *{
-        font-size: 30px;
-    }
-    #header{
-        width: 60%;
-    }
-    #menu ul li .button{
-        font-size: 1.1rem;
-    }
+@media (min-width: 2260px) {
+  * {
+    font-size: 30px;
+  }
+  #header {
+    width: 60%;
+  }
+  #menu ul li .button {
+    font-size: 1.1rem;
+  }
 
+  #content .contents {
+    width: 60%;
+  }
+  iframe {
+    height: 400px;
+  }
 
-    #content .contents{
-        width: 60%;
-    }
-    iframe{
-        height: 400px;
-    }
-
-
-    #footer{
-        width: 60%;
-    }
+  #footer {
+    width: 60%;
+  }
 }
-
 
 /* tablets */
-@media (max-width: 1023px){
-    *{
-        font-size: 20px;
-    }
-    header{
-        margin-top: -40px;
-    }
-    #header{
-        width: 100%;
-        grid-template-columns: auto;
-    }
+@media (max-width: 1023px) {
+  * {
+    font-size: 20px;
+  }
+  header {
+    margin-top: -40px;
+  }
+  #header {
+    width: 100%;
+    /* grid-template-columns: auto; */
+  }
+  #icon-menu {
+    display: flex;
+    justify-self: start;
+  }
+  #menu {
+    display: none;
+    grid-column: 1 / 3;
+  }
 
-    #content{
-        margin-top: 40px;
-    }
-    #content .contents{
-        width: 100%;
-        height: auto;
-    }
-    #service-animation{
-        display: none;
+  #content {
+    margin-top: 40px;
+  }
+  #content .contents {
+    width: 100%;
+    height: auto;
+  }
+  #service-animation {
+    display: none;
+  }
+  iframe {
+    height: 250px;
+  }
 
-    }
-    iframe{
-        height: 250px;
-    }
-
-
-    #footer{
-        width: 100%;
-    }
+  #footer {
+    width: 100%;
+  }
 }
 
-
 /* telefonos */
-@media (max-width: 768px){
-    *{
-        font-size: 16px;
-    }
+@media (max-width: 768px) {
+  * {
+    font-size: 16px;
+  }
 
-    #content .contents{
-        grid-template-columns: auto;
-        grid-auto-rows: auto;
-    }
-    #history-text{
-        padding-top: 50px;
-    }
-    #history-figure{
-        margin: auto;
-        width: 50%;
-        padding-bottom: 50px;
-    }
-    #about-figure{
-        grid-column: 1 / 2;
-    }
-    #contact-title{
-        grid-column: 1 / 2;
-    }
-    iframe{
-        height: 200px;
-    }
- }
+  #content .contents {
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+  }
+  #history-text {
+    padding-top: 50px;
+  }
+  #history-figure {
+    margin: auto;
+    width: 50%;
+    padding-bottom: 50px;
+  }
+  #about-figure {
+    grid-column: 1 / 2;
+  }
+  #contact-title {
+    grid-column: 1 / 2;
+  }
+  iframe {
+    height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  #menu ul {
+    flex-direction: column;
+    text-align: center;
+  }
+}
