@@ -1,0 +1,33 @@
+/* historia / history */
+#history {
+  background-color: #081241;
+  width: 100%;
+}
+.container {
+  min-height: 100vh;
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: auto auto;
+}
+
+#history-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#history-text div {
+  margin: auto;
+}
+#history-text div h2 {
+  color: white;
+}
+#history-text div p {
+  color: gainsboro;
+}
+
+#history-figure {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

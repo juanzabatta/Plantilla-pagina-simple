@@ -1,0 +1,21 @@
+/* Pie de página */
+#footer {
+  margin-top: 20px;
+  background-color: #081241;
+}
+footer > div {
+  width: 80%;
+  margin: auto;
+}
+#footer p {
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin: 0px;
+  padding: 20px;
+  color: gainsboro;
+}
+#footer p a {
+  font-size: 0.8rem;
+  color: gainsboro;
+}

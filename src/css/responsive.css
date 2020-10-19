@@ -1,0 +1,70 @@
+/* tablets */
+@media (max-width: 1023px) {
+  * {
+    font-size: 20px;
+  }
+  #header {
+    width: 100%;
+  }
+  #header #menu ul li .button {
+    width: 125px;
+  }
+  #content .contents {
+    width: 100%;
+    height: auto;
+  }
+  #content .contents .container {
+    width: 100%;
+  }
+  #service-animation {
+    display: none;
+  }
+  iframe {
+    height: 250px;
+  }
+
+  #footer > div {
+    width: 100%;
+  }
+}
+
+/* telefonos */
+@media (max-width: 768px) {
+  * {
+    font-size: 16px;
+  }
+  #header #menu ul li .button {
+    width: 100px;
+  }
+  #about {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+  }
+  #about-figure {
+    grid-column: 1 / 2;
+  }
+  #contact-title {
+    grid-column: 1 / 2;
+  }
+  iframe {
+    height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  #header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #header #menu ul li .button {
+    line-height: 1.5rem;
+  }
+  .container {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+  #history-figure figure img {
+    width: 60%;
+  }
+}

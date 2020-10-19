@@ -1,0 +1,61 @@
+/* Cabecera */
+header {
+  position: fixed;
+  z-index: 6;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 #a1a6be, 0 6px 20px 0 #081241;
+  transition: all 500ms;
+}
+
+#header {
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Logo */
+#logo {
+  height: 3rem;
+  width: calc(3rem * 3.2);
+  text-align: center;
+}
+
+/* Menu */
+#menu {
+  display: flex;
+  width: auto;
+}
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+#menu ul li .button {
+  font-size: 1rem;
+  width: 150px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  font-family: Kaushan;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-weight: 900;
+  line-height: 2.5rem;
+  font-style: normal;
+  background-color: white;
+}
+#menu ul li .button:hover {
+  color: rgb(59, 59, 156);
+  text-decoration: none;
+  cursor: pointer;
+}
+#menu ul li .button:focus {
+  text-decoration: none;
+  outline-style: none;
+}
